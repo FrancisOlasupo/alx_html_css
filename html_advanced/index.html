@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smile School</title>
+  </head>
+  <body>
+    <!-- Task 1-Header: 
+        Create the HTML skeleton (html, head, body, etc.) 
+        In the body, add an header tag 
+        Inside this header:
+            -Add a link element with an image inside
+            -Add a block of 3 link elements -->
+    <header style="background-color: steelblue">
+      <a href="#"><img src="./image/logo.png" alt="" /></a>
+      <a href="">COURSES</a>
+      <a href="">PRICING</a>
+      <a href="">LOGIN</a>
+    </header>
+
+    <!-- Task 2-Banner:
+        create a main element with inside a section element, add:
+        A block with inside:
+            -An heading tag (don’t forget to use the correct -heading value)
+            -A text element
+            -A button tag
+        Another block with inside:
+        Another heading tag (same, be careful about which one you are using)
+        A block containing 4 blocks - each block with inside:
+            -An image
+            -An heading tag
+            -A text           -->
+    <main>
+      <section style="background-color: wheat">
+        <div>
+          <p>SMILES GRIN LAUGH</p>
+          <button>REGISTER FOR FREE</button>
+        </div>
+
+        <div>
+          <h2>Learn from the pros</h2>
+          <div>
+            <!-- block 1 -->
+            <div>
+              <img src="./image/user-1.png" alt="" />
+              <h3>Philip Massey</h3>
+              <p>
+                smile of the year <br />
+                2018 - 2019
+              </p>
+            </div>
+            <!-- block 2 -->
+            <div>
+              <img src="./image/6.png" alt="" />
+              <h3>Nannie Lawrence</h3>
+              <p>
+                Best little smile <br />
+                2017
+              </p>
+            </div>
+            <!-- block 3 -->
+            <div>
+              <img src="./image/7.png" alt="" />
+              <h3>Bruce Walters</h3>
+              <p>
+                Best Friend Smile <br />
+                live performance 2019
+              </p>
+            </div>
+            <!-- block 4 -->
+            <div>
+              <img src="./image/8.png" alt="" />
+              <h3>Henry Hughes</h3>
+              <p>
+                24th smiles winner <br />
+                2016 - 2019
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 3- Quote
+        Adding the quote-block:
+        Create a new section for the quote
+        Inside, add a block containing:
+            An image
+            Another block with inside:
+                A quote tag
+                An author quote
+                A text-->
+      <section style="background-color: rgb(82, 109, 131)">
+        <div>
+          <img src="./image/Bitmap-1.png" alt="" />
+          <div>
+            <quote-block
+              >Those tutorials are concise and go straight to the point. I cant
+              think of a better place to learn smiling</quote-block
+            >
+            <p>Person Name</p>
+            <p><i>weather presenter</i></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 4-Videos
+        Adding the video list:
+        Create a new section with inside
+            -An heading tag
+            -A block containing the 4 video block - each of them are    composed with:
+                An image
+                An heading
+                A text
+                A block for the author:
+                A image
+                An heading
+            A block for the rating:
+                A block of images (one star = one image)
+                A text  -->
+
+      <section style="background-color: rgb(85, 129, 122)">
+        <h3>Most popular tutorial</h3>
+        <div>
+          <!-- Video block-1 -->
+          <div>
+            <img src="./image/Bitmap-3.png" alt="" />
+            <h3>Diagonal Smile</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+              ea?
+            </p>
+            <div>
+              <img src="./image/user-1.png" alt="" />
+              <h3>Phillip Massey</h3>
+            </div>
+            <!-- star rating images -->
+            <div><img src="./image/rating.svg" alt="rating" /></div>
+          </div>
+
+          <!-- Video block-2 -->
+          <div>
+            <img src="./image/Bitmap-4.png" alt="" />
+            <h3>Sad Smile</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+              ea?
+            </p>
+            <div>
+              <img src="./image/user-1.png" alt="" />
+              <h3>Phillip Massey</h3>
+            </div>
+            <!-- star rating images -->
+            <div><img src="./image/rating.svg" alt="rating" /></div>
+          </div>
+
+          <!-- Video block-3 -->
+          <div>
+            <img src="./image/Bitmap-5.png" alt="" />
+            <h3>Natural Smile</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+              ea?
+            </p>
+            <div>
+              <img src="./image/user-1.png" alt="" />
+              <h3>Phillip Massey</h3>
+            </div>
+            <!-- star rating images -->
+            <div><img src="./image/rating.svg" alt="rating" /></div>
+          </div>
+
+          <!-- Video block-4 -->
+          <div>
+            <img src="./image/Bitmap-2.png" alt="" />
+            <h3>Happy Smile</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+              ea?
+            </p>
+            <div>
+              <img src="./image/user-1.png" alt="" />
+              <h3>Phillip Massey</h3>
+            </div>
+            <!-- star rating images -->
+            <div><img src="./image/rating.svg" alt="rating" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task 5- Membership section 
+        After the videos list section, add a new section containing:
+        An heading
+        A block with inside 4 block item - each block defined with:
+            An image
+            An heading
+            A text
+        A button -->
+
+      <section style="background-color: rgb(128, 126, 133)">
+        <h3>Free membership</h3>
+        <div>
+          <!-- Block 1 -->
+          <div>
+            <img src="./image/smile-icon.svg" alt="" />
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Block 2 -->
+          <div>
+            <img src="./image/smile-icon.svg" alt="" />
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Block 3 -->
+          <div>
+            <img src="./image/smile-icon.svg" alt="" />
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <!-- Block 4 -->
+          <div>
+            <img src="./image/smile-icon.svg" alt="" />
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <button></button>
+      </section>
+
+      <!-- Task 6-FAQ section 
+        Add a section for the FAQ with inside:
+            A block that contains 2 “row block”
+            Each “row block” contains 2 “item block”
+            Each “item block” is composed of:
+                An heading
+                A text -->
+      <section style="background-color: rgb(187, 170, 183)">
+        <h3>F.A.Q.</h3>
+        <div>
+          <div>
+            <div>
+              <h3>How does this work?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis nemo, in dignissimos tempore facilis modi, voluptatem
+                fuga voluptate architecto aspernatur cum inventore illo expedita
+                amet quasi, magnam magni. Reiciendis, officiis!
+              </p>
+            </div>
+            <div>
+              <h3>How does this work?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis nemo, in dignissimos tempore facilis modi, voluptatem
+                fuga voluptate architecto aspernatur cum inventore illo expedita
+                amet quasi, magnam magni. Reiciendis, officiis!
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>How does this work?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis nemo, in dignissimos tempore facilis modi, voluptatem
+                fuga voluptate architecto aspernatur cum inventore illo expedita
+                amet quasi, magnam magni. Reiciendis, officiis!
+              </p>
+            </div>
+            <div>
+              <h3>How does this work?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis nemo, in dignissimos tempore facilis modi, voluptatem
+                fuga voluptate architecto aspernatur cum inventore illo expedita
+                amet quasi, magnam magni. Reiciendis, officiis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Task 7-Footer section After the last section, outside of the main, add a footer:
+        A global block (used later for centering the footer content), inside this block:
+            A “row block” with:
+                An image
+                A block with inside:
+                    Images with link
+        A text
+        And… that’s it for the moment - the result should not be shiny, don’t worry, CSS is coming… -->
+
+    <footer>
+      <div>
+        <div style="background-color: #000">
+          <img src="./image/smile-icon.svg" alt="" />
+          <div>
+            <img src="./image/social-media_icons.svg" alt="" />
+          </div>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+  </body>
+</html>
