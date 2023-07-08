@@ -1,10 +1,12 @@
 Author: Olasupo Tosin (Dev-TEE-X)
+
 School: ALX SWE
+
 
 REPO DESCRIPTION
 
-This repo contain the basics of HTML.
-it tries to text the following
+This repo contains the basics of HTML.
+It tests the following:
 
 1. Understanding of HTML version document type (<!DOCTYPE html>) and setting of doc language.
 2. HTML elements and tags such as head, body, title, header, main, footer, aside etc.
