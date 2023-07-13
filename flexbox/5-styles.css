@@ -339,7 +339,7 @@ a:active {
 }
 
 ul.row {
-  margin: 0;
+  margin: -1rem;
   padding: 0;
   list-style: none;
 }
@@ -352,23 +352,24 @@ ul.row {
 
 [class*="col-"] {
   /* float: left; */
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
+  margin: 1rem;
 }
 
 .col-1-3 {
-  width: 33.33%;
+  width: calc((100% / 3) - 2rem);
 }
 
 .col-1-2 {
-  width: 50%;
+  width: calc((100% / 2) - 2rem);
 }
 
 /* Navbar
       ============================= */
 
-.navbar-menu {
+/* .navbar-menu {
   float: right;
-}
+} */
 
 .nav {
   margin: 0;
@@ -423,7 +424,7 @@ ul.row {
   background: transparent;
 }
 
-.header-logo {
+/* .header-logo {
   position: var(--header-logo-position);
 }
 
@@ -432,6 +433,11 @@ ul.row {
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
+} */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Footer
@@ -532,6 +538,17 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 
+/* Section Latest news ============================= */
+.section-latest-news {
+  flex-direction: row-reverse;
+}
+
+/* Section SERVICES ============================= */
+
+.row {
+  flex-wrap: wrap;
+}
+
 /*** 4. CARD ***/
 
 /* Card (all styles)
@@ -608,7 +625,6 @@ ul.row {
 
 /* Card SERVICES
       ============================= */
-      
 
 .card-services .card-title {
   margin: 0;
